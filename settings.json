@@ -1,0 +1,26 @@
+// Place your settings in this file to overwrite the default settings
+//
+// ~/Library/Application\ Support/Code/User/settings.json
+{
+    "editor.trimAutoWhitespace": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [79],
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/*.pyc": true,
+        "build/*": true,
+        "dist/*": true
+    },
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.venvPath": "~/.virtualenvs",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "flake8",
+    "python.linting.flake8Args": ["--exclude", "migrations/*"],
+    "python.linting.pylintEnabled": false,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Zeus-Sublime-Text",
+    "workbench.iconTheme": "vs-seti"
+}
